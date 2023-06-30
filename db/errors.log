@@ -1,0 +1,37 @@
+
+
+14:58:25 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+14:59:11 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:36 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:38 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:43 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:43 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:44 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:03:44 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:04:04 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:05:14 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:05:17 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
+
+15:05:19 error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+         connection: {"host":"localhost","port":5432,"database":"expressdb","user":"postgres"}
