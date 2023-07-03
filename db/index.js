@@ -17,7 +17,12 @@ const pgp = pgPromise(initOptions);
 // Creating the database instance:
 const { POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_HOST, POSTGRES_DB } = dotenv.parsed;
 let connectStr = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:5432/${POSTGRES_DB}`;
-const db = pgp(connectStr);
+const cn = {
+    connectionString: connectStr,
+    max: 30,
+    query_timeout: 60000
+};
+const db = pgp(cn);
 
 // Initializing optional diagnostics:
 Diagnostics.init(initOptions);
