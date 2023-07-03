@@ -2,6 +2,7 @@ const pgPromise = require('pg-promise'); // pg-promise core library
 const dbConfig = require('../db-config.json'); // db connection details
 const {Diagnostics} = require('./diagnostics'); // optional diagnostics
 const {Users} = require('./repos');
+let dotenv = require('dotenv').config()
 
 // pg-promise initialization options:
 const initOptions = {
@@ -14,7 +15,9 @@ const initOptions = {
 const pgp = pgPromise(initOptions);
 
 // Creating the database instance:
-const db = pgp(dbConfig);
+const { POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_HOST, POSTGRES_DB } = dotenv.parsed;
+let connectStr = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:5432/${POSTGRES_DB}`;
+const db = pgp(connectStr);
 
 // Initializing optional diagnostics:
 Diagnostics.init(initOptions);
